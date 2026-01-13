@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Mic, Play, Award, HelpCircle, ChevronRight, RotateCcw, Volume2, User, Layout, MessageSquare } from 'lucide-react';
-import config from './../config';
+import config from '../config';
 
 const InterviewPrep = () => {
     const [role, setRole] = useState('Product Manager');

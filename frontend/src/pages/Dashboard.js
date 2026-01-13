@@ -4,7 +4,7 @@ import {
     BarChart2, Briefcase, CheckCircle,
     ArrowRight, BookOpen, Trophy, User, Zap, XCircle, Award, Target, Star
 } from 'lucide-react';
-import config from './config';
+import config from '../config';
 import { Line, Doughnut } from 'react-chartjs-2';
 import {
     Chart as ChartJS,

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BookOpen, Check, Award, Cpu, Code, ArrowRight, Sparkles, Globe, Target } from 'lucide-react';
-import config from './../config';
+import config from '../config';
 import { motion } from 'framer-motion';
 
 const QuizHub = () => {

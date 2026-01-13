@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Save, User, Briefcase, GraduationCap, MapPin, Loader, Github, Linkedin, Award, BookOpen, Globe, Shield, Settings, Fingerprint, CheckCircle2, XCircle, Plus, Trash2, Cpu } from 'lucide-react';
-import config from './config';
+import config from '../config';
 
 const ProfilePage = () => {
     const [profile, setProfile] = useState({

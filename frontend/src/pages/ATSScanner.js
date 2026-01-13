@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Upload, CheckCircle, XCircle, AlertTriangle, ScanLine, FileText, Cpu, Sparkles } from 'lucide-react';
-import config from './../config';
+import config from '../config';
 
 const ATSScanner = () => {
     const [file, setFile] = useState(null);

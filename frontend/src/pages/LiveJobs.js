@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, MapPin, Briefcase, ExternalLink, Clock, Building2, Globe, DollarSign, Filter, RefreshCcw } from 'lucide-react';
-import config from './../config';
+import config from '../config';
 
 const LiveJobs = () => {
     const [jobs, setJobs] = useState([]);
