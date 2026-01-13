@@ -244,7 +244,7 @@ const ProfilePage = () => {
                             {/* Basic Info */}
                             <div className="space-y-3">
                                 <label className="corp-label flex items-center gap-2">
-                                    <Book size={14} className="text-blue-500" /> Professional Summary (Bio)
+                                    <BookOpen size={14} className="text-blue-500" /> Professional Summary (Bio)
                                 </label>
                                 <textarea
                                     name="bio"
@@ -258,7 +258,7 @@ const ProfilePage = () => {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                                 <div className="space-y-3">
                                     <label className="corp-label flex items-center gap-2">
-                                        <Book size={14} className="text-blue-500" /> Educational Background
+                                        <BookOpen size={14} className="text-blue-500" /> Educational Background
                                     </label>
                                     <select
                                         name="education"
@@ -294,7 +294,7 @@ const ProfilePage = () => {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                                 <div className="space-y-3">
                                     <label className="corp-label flex items-center gap-2">
-                                        <Book size={14} className="text-blue-500" /> Institution
+                                        <BookOpen size={14} className="text-blue-500" /> Institution
                                     </label>
                                     <input
                                         type="text"
