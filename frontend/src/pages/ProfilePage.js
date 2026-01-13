@@ -137,7 +137,7 @@ const ProfilePage = () => {
                 body: JSON.stringify(payload)
             });
 
-            if (res.ok) {
+            if (response.ok) {
                 setMessage({ type: 'success', text: 'Bio Matrix updated successfully. Profiles synced.' });
             } else {
                 setMessage({ type: 'error', text: 'Synchronization failed. Check secure link.' });

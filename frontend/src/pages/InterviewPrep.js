@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mic, Play, Award, HelpCircle, ChevronRight, RotateCcw, Volume2, User, Layout, MessageSquare } from 'lucide-react';
+import { Mic, Play, Award, HelpCircle, ChevronRight, RotateCcw, Volume2, User, Layout, MessageSquare, Send } from 'lucide-react';
 import config from '../config';
 
 const InterviewPrep = () => {

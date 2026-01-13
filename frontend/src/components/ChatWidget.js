@@ -50,7 +50,7 @@ const ChatWidget = () => {
                     onClick={() => setIsOpen(true)}
                     className="bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg transition-transform hover:scale-110 flex items-center justify-center animate-bounce-slow"
                 >
-                    <MessageCircle size={28} />
+                    <MessageSquare size={28} />
                 </button>
             )}
 
