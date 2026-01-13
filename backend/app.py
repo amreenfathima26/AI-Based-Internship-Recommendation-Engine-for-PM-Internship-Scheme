@@ -35,6 +35,18 @@ quiz_service = QuizService()
 
 # --- Auth & User Management (Existing) ---
 
+@app.route('/', methods=['GET'])
+def index():
+    return jsonify({
+        "status": "online",
+        "message": "AI Based Internship Recommendation API",
+        "endpoints": {
+            "health": "/api/health",
+            "auth": "/api/auth/*",
+            "recommend": "/api/recommend"
+        }
+    })
+
 @app.route('/api/health', methods=['GET'])
 def health_check():
     return jsonify({"status": "healthy", "message": "Recommendation API is running"})
